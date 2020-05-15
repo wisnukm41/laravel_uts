@@ -20,8 +20,8 @@ Route::get('/search','NewsController@search');
 // User Route
 Route::get('/login', 'AuthController@index')->name('login');
 Route::post('/post-login', 'AuthController@postLogin'); 
-Route::get('/registration', 'AuthController@registration');
-Route::post('/post-registration', 'AuthController@postRegistration'); 
+// Route::get('/registration', 'AuthController@registration');
+// Route::post('/post-registration', 'AuthController@postRegistration'); 
 Route::get('/logout', 'AuthController@logout');
 
 // Admin Route
