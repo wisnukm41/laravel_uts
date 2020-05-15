@@ -1,0 +1,132 @@
+body {
+    background: #ecf0f1;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 8px;
+    padding-bottom: 20px;
+    width: 700px !important;
+    height: 400px !important;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+}
+
+.login__page {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.action__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-small {
+    line-height: 24px;
+    margin: 0 2px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.--edit {
+    background: #f39c12;
+    color: #fff;
+    border: 1px #f39c12 solid;
+}
+
+.--edit:hover {
+    background: #fff;
+    color: #f39c12;
+    border: 1px dashed #f39c12;
+}
+
+.--delete {
+    background: #e74c3c;
+    color: #fff;
+    border: 1px #e74c3c solid;
+}
+
+.--delete:hover {
+    background: #fff;
+    color: #e74c3c;
+    border: 1px dashed #e74c3c;
+}
+
+.img__preview {
+    max-height: 300px;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.--flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.--right {
+    justify-content: flex-start;
+}
+
+.--card__topic {
+    font: 700;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.news__img {
+    border: black 1px solid;
+    margin-top: 10px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news__time {
+    font-size: 1.3em;
+}
+
+.news__desc {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.news__new {
+    height: 1000px;
+}
+
+.carousel__link {
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+}
+
+.carousel__link:hover {
+    color: black;
+    transition: 0.2s;
+}
+
+.carousel__date {
+    font-size: 1.2em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.--nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.result {
+    min-height: 80vh;
+    max-height: max-content;
+}
